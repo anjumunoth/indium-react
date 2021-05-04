@@ -1,0 +1,87 @@
+Why react:
+-- trending 
+-- project requirement  -- client 
+-- lighter and dynamic and easy
+-- faster than angular (virtual DOM)
+-- 
+
+React
+
+javascript library -- lightweight
+
+Angular -- front end framework
+MVC(1.x) MVVM(2.x above)
+
+immutablility
+one way flow of data(no two way data binding)
+lightweight; install the modules
+Virtual DOM 
+Unit Testing
+Jest testing framework
+Server -- axios 
+
+
+DOM --Document Object Model -- tree structure of html elements:
+one root node
+parent child relationship
+
+modify the DOM -- costly affair
+traverse through the DOM -- modify the DOM -- refresh the page 
+
+Virtual DOM --
+Each react component will return the virtual DOM
+
+virtual dom will be mapped to REal DOM -- created
+
+Changes to be made
+-- return a new virtual dom with the required changes
+
+2 virtual dom;s
+1 VDOM before the changes; 1 VDOM after the changes;
+
+React will find the diff b/w the 2 virtual doms
+
+wherever the differences are there, only in those places , real DOM will be modified
+
+
+10 elements in virtual dom
+
+2 changes are to be made
+
+-- 10 elements with changes in virtual DOM
+
+diffing algorithm will find the differences -- 2 diff
+
+2 diff will be made in the real dom
+2 elements are modified
+
+Angular -- entire page will be refreshed -- 10 elements in REAL dom
+
+React is faster than Angular
+React is efficient than Angular
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+Java String : immutable 
+python : immutable 
+
+once assigned a value, it cannot be changed.
+
+props -- immutable in nature;
+
+
+
+
+
+
